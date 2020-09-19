@@ -15,7 +15,7 @@ main(int argc,char*argv[]) {
 	int desired_no_channels = 3;
 
 	/*
-	unsigned char *image = stbi_load("lena.png",
+	unsigned char *image = stbi_load("Lena.png",
 										&width,
 										&height,
 										&original_no_channels,
@@ -24,7 +24,7 @@ main(int argc,char*argv[]) {
 	//*/
 	
 	/*
-	unsigned char *image = stbi_load("edificio.jpg",
+	unsigned char *image = stbi_load("building.jpg",
 										&width,
 										&height,
 										&original_no_channels,
@@ -32,7 +32,7 @@ main(int argc,char*argv[]) {
 
 */		
 	/*			
-	unsigned char *image = stbi_load("paisaje.jpg",
+	unsigned char *image = stbi_load("landscape.jpg",
 										&width,
 										&height,
 										&original_no_channels,
