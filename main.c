@@ -97,7 +97,7 @@ main(int argc,char*argv[]) {
 	    srand(time(NULL));
 	    for(i = 0; i<kernel_size; i++){
 	        for(j = 0; j<kernel_size; j++){		
-	            kernel[i][j] = rand();
+	            kernel[i][j] = (rand()%100) /100.00;
 	        }
 		}
 		*/
